@@ -27,8 +27,19 @@ This workflow automatically classifies customer support tickets using OpenAI, th
 ---
 
 ## Workflow
+```mermaid
+flowchart LR
+    A[Webhook] --> B[AI Agent]
+    B --> C[Switch]
+    C --> D[Google Sheets]
+```
+
+---
+
+### Workflow Screenshot
 
 ![Workflow](AI-Ticket-Classifier-Workflow.png)
+
 
 ---
 
