@@ -62,3 +62,17 @@ Follow these steps to use this workflow in n8n:
 5. Configure your OpenAI API credentials.
 6. Configure your Google Sheets credentials.
 7. Execute the workflow and test it using a webhook request.
+
+
+## Requirements
+
+Before using this workflow, make sure you have:
+
+- n8n v1.x
+- OpenAI API Key
+- Google Sheets credentials
+- Google OAuth configured
+
+- ## License
+
+MIT License
