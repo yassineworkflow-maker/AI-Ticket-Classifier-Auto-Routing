@@ -53,4 +53,12 @@ flowchart LR
 
 ## Import
 
-Download the JSON workflow and import it directly into n8n.
+Follow these steps to use this workflow in n8n:
+
+1. Download `AI Ticket Classifier & Auto Routing.json` from this repository.
+2. Open your n8n instance.
+3. Click **Import from File**.
+4. Select the downloaded JSON file.
+5. Configure your OpenAI API credentials.
+6. Configure your Google Sheets credentials.
+7. Execute the workflow and test it using a webhook request.
